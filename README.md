@@ -11,7 +11,7 @@ This project demonstrates how to use the Hugging Face API to generate images usi
 5. [Showcase Generated Images](#showcase-generated-images)
 
 
-# Setup Instructions
+## Setup Instructions
 
 1. Install the `requests` library:
    pip install requests
@@ -20,7 +20,7 @@ This project demonstrates how to use the Hugging Face API to generate images usi
 3. Replace the `API_TOKEN` variable in the script with your Hugging Face API token.
 
 
-# Approach
+## Approach
 
 - The script uses the Hugging Face API to interact with the Stable Diffusion XL Base 1.0 model.
 - A text prompt is sent to the API, and the model generates an image based on the prompt.
@@ -28,22 +28,22 @@ This project demonstrates how to use the Hugging Face API to generate images usi
 - Error handling ensures the script handles API failures gracefully.
 
 
-## Challenges and Assumptions
+# Challenges and Assumptions
 
-# Challenges
+### Challenges
 - API Rate Limits: Free-tier Hugging Face API usage may have rate limits.
 - Image Quality: The quality of generated images depends on the prompt and the model's capabilities.
 
-# Assumptions
+### Assumptions
 - The Hugging Face API token is valid and has access to the Stable Diffusion XL Base 1.0 model.
 - The prompt provided is descriptive enough to generate meaningful images.
 
 
-## Generated Images
+# Generated Images
 
 - The script generates 3 images based on the provided prompt.
 - Images are saved in the `generated_images` directory with filenames like `serene_sunset_futuristic_city_1.png`.
 
-## Showcase Generated Images
+# Showcase Generated Images
 ![image](https://github.com/user-attachments/assets/e7a89522-6f7d-442e-97ef-ea093ca75e8e)
 
